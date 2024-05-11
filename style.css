@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    scroll-behavior: smooth;
+    /* cursor: url('./Slide1.png'), auto; */
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a{
+    color: rgb(34, 255, 34);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-left: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    letter-spacing: .4rem;
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    font-size: 3rem;
+    place-items: center;
+}
+
+#title span{
+    color: rgb(34, 255, 34);
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+#frontEnd,
+#backEnd,
+#fullStack{
+    /* padding-bottom: 5rem; */
+    margin-top: 20vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    /* height: 80vh; */
+    /* background-color: rgb(28, 28, 28); */
+}
+
+#techStacks{
+    margin-top: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin-top: 2rem;
+    /* height: 80%; */
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    gap: 3rem;
+}
+
+.container1{
+    margin-top: 2rem;
+    /* height: 80%; */
+    display: grid;
+    width: 100%;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(40, 40, 40);
+    transition: 0.6s;
+    border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* background-color: rgb(62, 62, 62) */
+    background-color: rgb(24, 164, 24)
+}
+
+footer{
+    text-align: center;
+    color: rgb(34, 255, 34);
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20vh;
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+}
+
+.w{
+    height: 16vh;
+}
+
+.card{
+    text-decoration: none;
+    color: white;
+    width: 10vw;
+    background-color: rgb(18, 18, 18);
+    border-radius: 0.8rem;
+    padding: 1rem;
+    /* height: 100%; */
+    transition: .4s;
+    z-index: 0;
+}
+
+.card2{
+    text-decoration: none;
+    color: white;
+    width: 45vw;
+    gap: 1rem;
+    background-color: rgb(18, 18, 18);
+    border-radius: 0.8rem;
+    padding-top: 1rem;
+    transition: .4s;
+    /* display: flex; */
+    display: grid;
+    place-items: center;
+}
+
+.card3{
+    text-decoration: none;
+    color: white;
+    width: 40vw;
+    padding: 1rem;
+    transition: .4s;
+    /* display: flex; */
+    display: flex;
+}
+
+.img-cont{ 
+    height: 80%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#frontEnd h1,
+#backEnd h1,
+#techStacks h1,
+#fullStack h1{
+    margin-left: 1rem;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(34, 255, 34);
+    font-size: 2rem;
+}
+
+section img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    height: 20%;
+    width: 100%;
+    position: relative;
+}
+
+#backEnd{
+    margin-top: 4rem;
+}
+
+.card:hover{
+    /* border: solid rgb(34, 255, 34) 1px; */
+    background-color: rgb(40, 40, 40);
+    scale: 1.08 1.08;
+    cursor: pointer;
+    z-index: 1;
+}
